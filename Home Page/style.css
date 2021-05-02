@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.services {
+    background: #000000;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.services h1 {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    /* border-bottom: 4px solid #3498db; */
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+.cen {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.service {
+    color: white;
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+    /* background: #3498db; */
+    /* border: 1px solid black; */
+}
+
+.service:hover {
+    background: rgb(197, 188, 188);
+    color: black;
+}
+
+.service i {
+    color: #3498db;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+.service p {
+    color: rgb(250, 248, 248);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.service p:hover {
+    color: black;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: inline-start;
+    width: 50%;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: inline-end;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    background-color: #f4f6f7;
+    border-radius: 5px;
+    color: rgb(14, 13, 13);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: rgb(26, 16, 117);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: rgb(153, 137, 226);
+    border: 1px #fff solid;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+    background-color: black;
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.btn-primary a,
+.btn-secondary a,
+.btn-dark a {
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .service {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .service {
+        width: 100%;
+    }
+}

@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    border-radius: 30px;
+}
+
+.services {
+    background: #ffffff;
+    text-align: center;
+}
+
+.services h1 {
+    display: inline-block;
+    color: rgb(20, 10, 56);
+    text-transform: uppercase;
+    /* border-bottom: 4px solid #3498db; */
+    font-size: 40px;
+    padding-bottom: 5px;
+    margin-top: 35px;
+}
+
+.cen {
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    overflow: hidden;
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#one {
+    width: 200px;
+    justify-self: flex-end;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+#two {
+    width: 127px;
+    justify-self: flex-end;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+#three {
+    width: 200px;
+    justify-self: flex-end;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+#four {
+    width: 145px;
+    justify-self: flex-end;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+#five {
+    width: 250px;
+    justify-self: flex-end;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+#six {
+    width: 115px;
+    justify-self: flex-end;
+    margin: 2px 2px 2px 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.service {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 500px;
+    /* width: calc(100% / 3); */
+    margin: 3px 3px 3px 3px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+    background: #4e4368;
+    border: 1px solid #453c5e;
+    border-radius: 20px;
+}
+
+.service:hover {
+    background: rgb(197, 188, 188);
+    color: black;
+}
+
+.service h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+.service p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.service p:hover {
+    color: black;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: inline-start;
+    width: 50%;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: inline-end;
+    width: 20%;
+    padding: 10px;
+    background: #03192b;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    background-color: #f4f6f7;
+    border-radius: 5px;
+    color: rgb(14, 13, 13);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: rgb(247, 247, 248);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: rgb(13, 6, 48);
+    border: 1px rgb(13, 6, 48) solid;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+    background-color: black;
+    color: white;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.btn-primary a,
+.btn-secondary a,
+.btn-dark a {
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .service {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .service {
+        width: 100%;
+    }
+}

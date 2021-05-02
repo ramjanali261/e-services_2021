@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="form2.php" method="POST">
+        <div class="wrapper">
+            <div class="title">
+                Complain Form
+            </div>
+            <div class="form">
+
+                <div class="inputfield">
+                    <label>First Name</label>
+                    <input name="first" placeholder="Enter First Name" type="text" class="input" required>
+                </div>
+
+                <div class="inputfield">
+                    <label>Last Name</label>
+                    <input name="last" placeholder="Enter Last Name" type="text" class="input" required>
+                </div>
+
+                <div class="inputfield">
+                    <label>Gender</label>
+                    <div class="custom_select">
+                        <select name="gender1">
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+                    </div>
+                </div>
+
+                <div class="inputfield">
+                    <label>Email Address</label>
+                    <input name="email" placeholder="Enter Email Address" type="email" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label>Place</label>
+                    <input name="place" placeholder="Enter Place" type="text" class="input" required>
+                </div>
+
+                <div class="inputfield">
+                    <label>Issues</label>
+                    <div class="custom_select">
+                        <select name="issue">
+                            <option value="">Select</option>
+                            <option value="garbage_dumb">Garbage dumb</option>
+                            <option value="road_damage">Road damage</option>
+                            <option value="water_supply">Water supply</option>
+                            <option value="drainage">Drainage</option>
+                            <option value="unauthorised_construction">Unauthorised construction</option>
+                            <option value="portal_feedback">Portal feedback</option>
+                            <option value="road_accident">Road accident</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inputfield">
+                    <label>Explain Your Issue</label>
+                    <textarea name="details" placeholder="Explain briefly..." class="textarea" required></textarea>
+                </div>
+
+                <div class="inputfield">
+                    <label>Others</label>
+                    <input name="others" placeholder="Any other details" type="text" class="input">
+                </div>
+
+                <div class="inputfield">
+                    <label for="Upload">
+                    <p>Upload Photos/Videos</p></label>
+                    <input class="upload" type="file" id="myFile" name="filename">
+
+                </div>
+
+                <div class="inputfield terms">
+                    <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+                    <p>Agreed to <a href="#">terms and conditions</a></p>
+
+                </div>
+
+                <div class="inputfield">
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
