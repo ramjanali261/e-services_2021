@@ -6,4 +6,4 @@
 # All service in one platform.
 # All educational free courses provided by government.
 
-# Commercial aspect need to be build.
+# Commercial aspect
